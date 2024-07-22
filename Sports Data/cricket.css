@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+}
+.target{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.target :nth-child(1){
+    display: block;
+    flex: 3;
+    background-color: orange;
+    padding:20px 0;
+}
+.target :nth-child(2){
+    display: block;
+    flex: 1;
+    background-color: red;
+    padding:20px 0;
+}
+.runs{
+    background-color: greenyellow;
+    padding: 20px 0;
+    text-align: center;
+}
+.scoreSession{
+    position: sticky;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20%;
+}
+.scoreSession button{
+    margin-top: 10px;
+}
+#over > div > div > div{
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin: 10px;
+}
+#over > div > div{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    flex-wrap: wrap;
+}
+#over > div{
+    margin-left: 5px;
+}
+#over > div p{
+    margin-bottom: 2px;
+}
+#over > div > div > div.currentBall{
+    border-color: greenyellow;
+    box-shadow:  0px 0px 10px inset greenyellow;
+}
